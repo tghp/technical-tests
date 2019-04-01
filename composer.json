@@ -1,0 +1,14 @@
+{
+    "name": "tghp/technical-test",
+    "type": "project",
+    "license": "N/A",
+    "authors": [
+        {
+            "name": "TGHP",
+            "email": "glasshouse@tghp.co.uk"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
