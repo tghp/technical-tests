@@ -1,2 +1,5 @@
 .DS_Store
 vendor/
+public/css/*
+!.gitkeep
+node_modules

@@ -1,0 +1,23 @@
+body {
+    background: $color__primary-background;
+}
+
+header#masthead {
+    padding: 1rem $sizing__page-horizontal-margin;
+    background: $color__element-primary-background;
+    border-bottom: 1px solid $color__grey-500;
+    margin-bottom: 2rem;
+
+    #logo {
+        height: 30px;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+
+main {
+    margin: 0 $sizing__page-horizontal-margin;
+}
