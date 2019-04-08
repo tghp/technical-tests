@@ -7,9 +7,9 @@
 * Build a search/define form in the header that jumps to the single word page for the given word
 * Match the provided designs, using SASS and compiling via gulp
 
----
+## Tasks Breakdown
 
-## Integrate with the Wordnik API to grab necessary data
+### Integrate with the Wordnik API to grab necessary data
 * You'll need to get data from:
     * `GET /words.json/wordOfTheDay`
     * `GET /word.json/{word}`
@@ -19,12 +19,12 @@
 * You'll find existing an existing Slim AJAX controller (`AjaxController`) with the some existing actions for those endpoints. Work within, alter, or add actions as you see fit.
 * It's up to you how you store the access token but we'd prefer to see you store it in an environment variable.
 
-## Word Listings Page - Using JavaScript on the frontend, output word of the days for the last 7 days
+### Word Listings Page - Using JavaScript on the frontend, output word of the days for the last 7 days
 * Use jQuery, React, Vue or any other framework you like (see [#Frontend frameworks](Frontend frameworks)) and grab data from the backend
 * Use the home controller (`HomeController`) 
 * The block for each work should link to single word page.
 
-## Single Word Page - Output word data on a single word page
+### Single Word Page - Output word data on a single word page
 * You'll need to collate data from a couple of endpoints.
 * The design lays out what data should output.
 * URL should be either:
@@ -33,14 +33,16 @@
 * Add a new controller (see `app/Controller/`, `app/dependencies.php`, `app/routes.php`)
 * It's up to you whether you want to output this in frontend code or within Slim's templates.
 
-## Search/Define Input in Header
+### Search/Define Input in Header
 * Make the define/search text box jump directly to a single word page
 
-## Matching the designs using SASS
+### Matching the designs using SASS
 * All your styles should be in SASS, compliled to CSS at `public/css/styles.css`, uglified and autoprefixed.
 * There is a starter gulpfile in the codebase already.
 
-# Working with this codebase
+---
+
+# Codebase Groundwork
 The groundwork for this task is built within the [Slim PHP framework](http://www.slimframework.com/) which is as a MVC micro framework. We've baked in some conveniences for you so that you can focus on the important parts.
 
 ## Setup
