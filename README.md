@@ -1,3 +1,5 @@
+![Wordy](public/images/logo-wordy.svg)
+
 # Tasks
 * Integrate with the Wordnik API
 * Output Wordnik Word of the Day data for the last 7 days (listings page) using JavaScript to grab data from the backend
